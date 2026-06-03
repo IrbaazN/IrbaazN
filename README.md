@@ -1,9 +1,7 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Irbaaz%20Noor&fontSize=60&fontColor=58a6ff&fontAlignY=38&desc=AI%20Engineer%20%7C%20LLM%20Architect%20%7C%20Builder&descAlignY=60&descColor=8b949e&animation=fadeIn" width="100%"/>
 
-<!-- Typing Animation -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+Scalable+AI+Systems+%F0%9F%A4%96;LLM+Architectures+%26+Fine-Tuning+%F0%9F%A7%A0;RAG+%26+Multi-Agent+Systems+%F0%9F%94%97;FastAPI+%2B+OpenAI+%2B+HuggingFace+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <br/>
@@ -92,9 +90,8 @@ me = AIEngineer()
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=IrbaazN&theme=github_dark&hide_border=true&include_all_commits=false&count_private=false&show_icons=true&rank_icon=github" height="165"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IrbaazN&theme=github_dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" height="165"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=IrbaazN&theme=github_dark&hide_border=true&show_icons=true&rank_icon=github" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IrbaazN&theme=github_dark&hide_border=true&layout=compact" />
 
 <br/><br/>
 
