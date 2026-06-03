@@ -1,4 +1,3 @@
-cat > /mnt/user-data/outputs/README.md << 'EOF'
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Irbaaz%20Noor&fontSize=60&fontColor=58a6ff&fontAlignY=38&desc=AI%20Engineer%20%7C%20LLM%20Architect%20%7C%20Builder&descAlignY=60&descColor=8b949e&animation=fadeIn" width="100%"/>
@@ -91,13 +90,11 @@ me = AIEngineer()
 
 <div align="center">
 
-<!-- Stats card — using gh-stats.deno.dev (no rate limits) -->
-<img height="160" src="https://gh-stats.deno.dev/api?username=IrbaazN&theme=dark&hide_border=true&show_icons=true" />
-<img height="160" src="https://gh-stats.deno.dev/api/top-langs/?username=IrbaazN&theme=dark&hide_border=true&layout=compact" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=IrbaazN&theme=github_dark&hide_border=true&show_icons=true&rank_icon=github" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IrbaazN&theme=github_dark&hide_border=true&layout=compact" />
 
 <br/><br/>
 
-<!-- Streak — demolab is reliable -->
 <img src="https://streak-stats.demolab.com/?user=IrbaazN&theme=github-dark-blue&hide_border=true&card_width=500" />
 
 </div>
@@ -108,8 +105,17 @@ me = AIEngineer()
 
 <div align="center">
 
-<!-- Trophies — ryo-ma's service on vercel, generally stable -->
-<img src="https://github-profile-trophy.vercel.app/?username=IrbaazN&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7" />
+![Trophies](https://github-profile-trophy.vercel.app/?username=IrbaazN&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=7)
+
+</div>
+
+---
+
+## 🔝 Top Contributed Repos
+
+<div align="center">
+
+![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=IrbaazN&limit=5&theme=dark&combine_all_yearly_contributions=true&hide_border=true)
 
 </div>
 
@@ -132,4 +138,3 @@ me = AIEngineer()
 *"The most impactful AI isn't just technically sound — it solves real problems for real people."*
 
 </div>
-EOF
