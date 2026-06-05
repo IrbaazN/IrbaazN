@@ -90,8 +90,7 @@ me = AIEngineer()
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=IrbaazN&theme=github_dark&hide_border=true&show_icons=true&rank_icon=github" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IrbaazN&theme=github_dark&hide_border=true&layout=compact" />
+<img src="./profile/stats.svg" />
 
 <br/><br/>
 
