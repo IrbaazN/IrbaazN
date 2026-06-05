@@ -100,26 +100,6 @@ me = AIEngineer()
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=IrbaazN&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=7)
-
-</div>
-
----
-
-## 🔝 Top Contributed Repos
-
-<div align="center">
-
-![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=IrbaazN&limit=5&theme=dark&combine_all_yearly_contributions=true&hide_border=true)
-
-</div>
-
----
-
 ## ✍️ Dev Quote of the Day
 
 <div align="center">
