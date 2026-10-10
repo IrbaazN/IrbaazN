@@ -1,107 +1,149 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:6a5acd&height=200&section=header&text=Irbaaz%20Noor&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=I%20build%20agentic%20AI%20systems&descAlignY=60&descSize=18" alt="Irbaaz Noor banner" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=IRBAAZ%20NOOR&fontSize=60&fontColor=c4b5fd&animation=twinkling&fontAlignY=40&desc=agents%20that%20research%2C%20write%20%26%20argue%20until%20the%20answer%20is%20good&descAlignY=62&descSize=16&descColor=a5b4fc" alt="Irbaaz Noor" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=7C83FD&center=true&vCenter=true&width=720&lines=Multi-agent+LLM+pipelines;RAG+with+FAISS+%2B+Groq;LLM+post-training+at+Ethara+AI" alt="Typing intro"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=A78BFA&center=true&vCenter=true&width=760&height=40&lines=%24+whoami+%E2%86%92+Irbaaz+Noor;%24+building+%E2%86%92+multi-agent+LLM+pipelines;%24+retrieval+%E2%86%92+FAISS+%2B+Groq;%24+day+job+%E2%86%92+LLM+post-training+%40+Ethara+AI;%24+location+%E2%86%92+Delhi+NCR+%F0%9F%93%8D" alt="typing"/>
+
+<br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-irbaaz--noor-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/irbaaz-noor)
-[![Email](https://img.shields.io/badge/Email-noorirbaaz@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:noorirbaaz@gmail.com)
-[![MARS Demo](https://img.shields.io/badge/Live_Demo-MARS-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://irbaaz-multi-agent-ai-research-system.streamlit.app)
+[![Email](https://img.shields.io/badge/Gmail-noorirbaaz-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:noorirbaaz@gmail.com)
+[![Live Demo](https://img.shields.io/badge/▶_MARS-Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://irbaaz-multi-agent-ai-research-system.streamlit.app)
 
 </div>
 
----
+<br>
 
-## 🧠 About me
+## `~/about`
 
-```python
-class Irbaaz:
-    name     = "Irbaaz Noor"
-    location = "Delhi NCR, India"
-    degree   = "B.Tech CSE (AI), Jamia Hamdard University, 2026"
-    now      = "LLM post-training at Ethara AI"
-    building = ["multi-agent pipelines", "RAG chatbots", "LLM evaluation"]
-    stack    = ["Python", "LangGraph", "FastAPI", "FAISS", "Groq"]
-    open_to  = "collaborations on agentic AI projects"
+```bash
+irbaaz@delhi-ncr:~$ cat about.txt
+
+  B.Tech CSE (AI) · Jamia Hamdard University · 2026
+  Day job   : LLM post-training @ Ethara AI
+  Side quest: building agentic AI systems that fact-check themselves
+  Obsessed  : pipelines where one agent's job is to criticise another
+  Status    : open to collaborations ✅
 ```
 
----
+<br>
 
-## 🚀 Featured projects
+## `~/projects`
 
-### 🤖 MARS: Multi-Agent AI Research System
+<table>
+<tr>
+<td width="50%" valign="top">
 
-I built a 4-agent LangGraph pipeline that takes a topic and returns a researched, critiqued report. The Critic sends drafts back to the Writer until they pass review.
+### 🤖 MARS
+**Multi-Agent AI Research System**
+
+I built a 4-agent LangGraph pipeline that takes any topic and returns a researched, critiqued report. The Critic keeps sending drafts back until they pass review.
+
+`LangGraph` `LLaMA 3.1` `Groq` `Tavily` `BeautifulSoup` `Streamlit`
+
+[▶ Live demo](https://irbaaz-multi-agent-ai-research-system.streamlit.app) · [{ } Code](https://github.com/IrbaazN/multi-agent-research-system)
+
+</td>
+<td width="50%" valign="top">
+
+### 💬 SHL Recommender
+**Conversational assessment finder**
+
+I built an AI chatbot that helps HRs find the right SHL assessments through multi-turn conversation, using FAISS vector search and a Groq-hosted LLM.
+
+`FastAPI` `FAISS` `Groq` `Python`
+
+[{ } Code](https://github.com/IrbaazN/SHL-recommender)
+
+</td>
+</tr>
+</table>
+
+### 🔬 Inside MARS
 
 ```mermaid
 flowchart LR
-    A([📝 Topic]) --> B[🔎 Search<br/>Tavily]
-    B --> C[📖 Reader<br/>BeautifulSoup]
-    C --> D[✍️ Writer]
-    D --> E{🧐 Critic}
-    E -- needs revision --> D
-    E -- approved --> F([📄 Final report])
+    T([📝 Topic]) --> S[🔎 Search<br/><i>Tavily</i>]
+    S --> R[📖 Reader<br/><i>BeautifulSoup</i>]
+    R --> W[✍️ Writer]
+    W --> C{🧐 Critic}
+    C -- "❌ revise" --> W
+    C -- "✅ approved" --> OUT([📄 Report])
+
+    classDef agent fill:#302b63,stroke:#a78bfa,color:#fff,stroke-width:2px
+    classDef io fill:#0f0c29,stroke:#6366f1,color:#c4b5fd
+    class S,R,W,C agent
+    class T,OUT io
 ```
 
-**Stack:** LangGraph · LLaMA 3.1 (via Groq) · Tavily · BeautifulSoup · Streamlit
+### 🔬 Inside SHL Recommender
 
-[![Try it live](https://img.shields.io/badge/▶_Try_it_live-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://irbaaz-multi-agent-ai-research-system.streamlit.app)
-[![View code](https://img.shields.io/badge/{_}_View_code-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/IrbaazN/multi-agent-research-system)
+```mermaid
+flowchart LR
+    H([👩‍💼 HR message]) --> Q[💭 Clarify<br/><i>multi-turn</i>]
+    Q --> V[(🧭 FAISS<br/>vector search)]
+    V --> L[⚡ Groq LLM]
+    L --> A([✅ Assessment picks])
 
-### 💬 SHL Recommender
+    classDef node fill:#302b63,stroke:#a78bfa,color:#fff,stroke-width:2px
+    classDef io fill:#0f0c29,stroke:#6366f1,color:#c4b5fd
+    class Q,V,L node
+    class H,A io
+```
 
-I built an AI chatbot that suggests SHL assessments to HRs through multi-turn conversation. It uses FastAPI, FAISS vector search, and a Groq-hosted LLM.
+<br>
 
-[![View code](https://img.shields.io/badge/{_}_View_code-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/IrbaazN/SHL-recommender)
-
----
-
-## 🧪 More things I built
+## `~/lab` &nbsp;·&nbsp; <sub>smaller experiments</sub>
 
 <details>
-<summary><b>💳 Credit Card Fraud Detection</b></summary>
+<summary>💳 <b>Credit Card Fraud Detection</b></summary>
 <br>
 I built an XGBoost + SMOTE model for heavily imbalanced transaction data, reaching 97%+ precision.
 </details>
 
 <details>
-<summary><b>🩺 Breast Cancer Prediction</b></summary>
+<summary>🩺 <b>Breast Cancer Prediction</b></summary>
 <br>
 I built a classification model on clinical features.
 </details>
 
 <details>
-<summary><b>🎙️ VidSnapAI</b></summary>
+<summary>🎙️ <b>VidSnapAI</b></summary>
 <br>
 I built a Flask app that generates voiceovers with ElevenLabs.
 </details>
 
----
+<br>
 
-## 🛠️ Tech stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
----
+## `~/stack`
 
 <div align="center">
 
-**Open to collaborating on agentic AI projects. Say hi 👇**
+<img src="https://skillicons.dev/icons?i=python,fastapi,flask,streamlit,sklearn,pandas,numpy,git,github&theme=dark" alt="stack icons"/>
+<br><br>
 
-[![Email me](https://img.shields.io/badge/Email_me-noorirbaaz@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:noorirbaaz@gmail.com)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=for-the-badge)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a5acd,50:2c5364,100:0f2027&height=100&section=footer" alt="footer" width="100%"/>
+</div>
+
+<br>
+
+<div align="center">
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│  "I like pipelines where the agents argue until it's right." │
+└──────────────────────────────────────────────────────────────┘
+```
+
+**Let's build something agentic 👇**
+
+[![Say hi](https://img.shields.io/badge/Say_hi-noorirbaaz@gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:noorirbaaz@gmail.com)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=110&section=footer" alt="footer" width="100%"/>
 
 </div>
