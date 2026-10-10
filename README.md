@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=IRBAAZ%20NOOR&fontSize=60&fontColor=c4b5fd&animation=twinkling&fontAlignY=40&desc=agents%20that%20research%2C%20write%20%26%20argue%20until%20the%20answer%20is%20good&descAlignY=62&descSize=16&descColor=a5b4fc" alt="Irbaaz Noor" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Irbaaz%20Noor&fontSize=54&fontColor=c4b5fd&fontAlignY=38&desc=I%20build%20agentic%20AI%20systems&descAlignY=60&descSize=18&descColor=a5b4fc" alt="Irbaaz Noor banner" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=A78BFA&center=true&vCenter=true&width=760&height=40&lines=%24+whoami+%E2%86%92+Irbaaz+Noor;%24+building+%E2%86%92+multi-agent+LLM+pipelines;%24+retrieval+%E2%86%92+FAISS+%2B+Groq;%24+day+job+%E2%86%92+LLM+post-training+%40+Ethara+AI;%24+location+%E2%86%92+Delhi+NCR+%F0%9F%93%8D" alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=A78BFA&center=true&vCenter=true&width=760&height=40&lines=Multi-agent+LLM+pipelines;RAG+with+FAISS+%2B+Groq;LLM+post-training+at+Ethara+AI;Delhi+NCR+%F0%9F%93%8D" alt="typing intro"/>
 
 <br>
 
@@ -14,16 +14,26 @@
 
 <br>
 
-## `~/about`
+## 🧠 About Me
 
-```bash
-irbaaz@delhi-ncr:~$ cat about.txt
+```python
+class AIEngineer:
+    def __init__(self):
+        self.name       = "Irbaaz Noor"
+        self.location   = "Delhi NCR, India"
+        self.role       = "LLM Post-Training @ Ethara AI"
+        self.focus      = ["Multi-Agent AI", "RAG Systems", "LLM Evaluation"]
+        self.stack      = ["Python", "LangGraph", "FastAPI", "FAISS", "Groq"]
+        self.philosophy = "Impactful AI solves real problems for real people."
 
-  B.Tech CSE (AI) · Jamia Hamdard University · 2026
-  Day job   : LLM post-training @ Ethara AI
-  Side quest: building agentic AI systems that fact-check themselves
-  Obsessed  : pipelines where one agent's job is to criticise another
-  Status    : open to collaborations ✅
+    def currently(self):
+        return {
+            "building" : "Agentic pipelines & RAG chatbots",
+            "exploring": "Multi-agent orchestration, retrieval, LLM evals",
+            "open_to"  : "Collaborations, open-source, exciting AI projects"
+        }
+
+me = AIEngineer()
 ```
 
 <br>
@@ -59,16 +69,18 @@ I built an AI chatbot that helps HRs find the right SHL assessments through mult
 </tr>
 </table>
 
-### 🔬 Inside MARS
+<details>
+<summary>🔬 <b>How MARS works</b> (click to expand)</summary>
+<br>
 
 ```mermaid
-flowchart LR
-    T([📝 Topic]) --> S[🔎 Search<br/><i>Tavily</i>]
-    S --> R[📖 Reader<br/><i>BeautifulSoup</i>]
-    R --> W[✍️ Writer]
-    W --> C{🧐 Critic}
-    C -- "❌ revise" --> W
-    C -- "✅ approved" --> OUT([📄 Report])
+flowchart TD
+    T([Topic]) --> S[Search<br/>Tavily]
+    S --> R[Reader<br/>BeautifulSoup]
+    R --> W[Writer]
+    W --> C{Critic}
+    C -- revise --> W
+    C -- approved --> OUT([Final report])
 
     classDef agent fill:#302b63,stroke:#a78bfa,color:#fff,stroke-width:2px
     classDef io fill:#0f0c29,stroke:#6366f1,color:#c4b5fd
@@ -76,20 +88,26 @@ flowchart LR
     class T,OUT io
 ```
 
-### 🔬 Inside SHL Recommender
+</details>
+
+<details>
+<summary>🔬 <b>How SHL Recommender works</b> (click to expand)</summary>
+<br>
 
 ```mermaid
-flowchart LR
-    H([👩‍💼 HR message]) --> Q[💭 Clarify<br/><i>multi-turn</i>]
-    Q --> V[(🧭 FAISS<br/>vector search)]
-    V --> L[⚡ Groq LLM]
-    L --> A([✅ Assessment picks])
+flowchart TD
+    H([HR message]) --> Q[Clarify<br/>multi-turn]
+    Q --> V[(FAISS<br/>vector search)]
+    V --> L[Groq LLM]
+    L --> A([Assessment picks])
 
     classDef node fill:#302b63,stroke:#a78bfa,color:#fff,stroke-width:2px
     classDef io fill:#0f0c29,stroke:#6366f1,color:#c4b5fd
     class Q,V,L node
     class H,A io
 ```
+
+</details>
 
 <br>
 
@@ -119,26 +137,25 @@ I built a Flask app that generates voiceovers with ElevenLabs.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,flask,streamlit,sklearn,pandas,numpy,git,github&theme=dark" alt="stack icons"/>
-<br><br>
-
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
 <br>
 
 <div align="center">
-
-```text
-┌──────────────────────────────────────────────────────────────┐
-│  "I like pipelines where the agents argue until it's right." │
-└──────────────────────────────────────────────────────────────┘
-```
 
 **Let's build something agentic 👇**
 
