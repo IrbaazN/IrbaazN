@@ -1,119 +1,107 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Irbaaz%20Noor&fontSize=60&fontColor=58a6ff&fontAlignY=38&desc=AI%20Engineer%20%7C%20LLM%20Architect%20%7C%20Builder&descAlignY=60&descColor=8b949e&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:6a5acd&height=200&section=header&text=Irbaaz%20Noor&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=I%20build%20agentic%20AI%20systems&descAlignY=60&descSize=18" alt="Irbaaz Noor banner" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+Scalable+AI+Systems+%F0%9F%A4%96;LLM+Architectures+%26+Fine-Tuning+%F0%9F%A7%A0;RAG+%26+Multi-Agent+Systems+%F0%9F%94%97;FastAPI+%2B+OpenAI+%2B+HuggingFace+%F0%9F%9A%80)](https://git.io/typing-svg)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=7C83FD&center=true&vCenter=true&width=720&lines=Multi-agent+LLM+pipelines;RAG+with+FAISS+%2B+Groq;LLM+post-training+at+Ethara+AI" alt="Typing intro"/>
 
-<br/>
-
-[![Profile Views](https://komarev.com/ghpvc/?username=IrbaazN&color=58a6ff&style=flat-square&label=Profile+Views)](https://github.com/IrbaazN)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/irbaaz-noor/)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/irbaaznoor_/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:noorirbaaz@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-irbaaz--noor-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/irbaaz-noor)
+[![Email](https://img.shields.io/badge/Email-noorirbaaz@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:noorirbaaz@gmail.com)
+[![MARS Demo](https://img.shields.io/badge/Live_Demo-MARS-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://irbaaz-multi-agent-ai-research-system.streamlit.app)
 
 </div>
 
 ---
 
-## 🧠 About Me
+## 🧠 About me
 
 ```python
-class AIEngineer:
-    def __init__(self):
-        self.name       = "Irbaaz Noor"
-        self.location   = "India 🇮🇳"
-        self.role       = "AI Engineer"
-        self.focus      = ["LLM Architectures", "Fine-Tuning", "RAG Systems", "Multi-Agent AI"]
-        self.stack      = ["Python", "OpenAI API", "HuggingFace", "FastAPI"]
-        self.philosophy = "Impactful AI solves real problems for real people."
-
-    def currently(self):
-        return {
-            "building"  : "Production-grade AI APIs & intelligent systems",
-            "exploring" : "Generative AI, Retrieval-Augmented Generation",
-            "open_to"   : "Collaborations, open-source, exciting AI projects"
-        }
-
-me = AIEngineer()
+class Irbaaz:
+    name     = "Irbaaz Noor"
+    location = "Delhi NCR, India"
+    degree   = "B.Tech CSE (AI), Jamia Hamdard University, 2026"
+    now      = "LLM post-training at Ethara AI"
+    building = ["multi-agent pipelines", "RAG chatbots", "LLM evaluation"]
+    stack    = ["Python", "LangGraph", "FastAPI", "FAISS", "Groq"]
+    open_to  = "collaborations on agentic AI projects"
 ```
 
 ---
 
-## 🌐 Connect With Me
+## 🚀 Featured projects
 
-<div align="center">
+### 🤖 MARS: Multi-Agent AI Research System
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/irbaaz-noor/)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/irbaaznoor_/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:noorirbaaz@gmail.com)
+I built a 4-agent LangGraph pipeline that takes a topic and returns a researched, critiqued report. The Critic sends drafts back to the Writer until they pass review.
 
-</div>
+```mermaid
+flowchart LR
+    A([📝 Topic]) --> B[🔎 Search<br/>Tavily]
+    B --> C[📖 Reader<br/>BeautifulSoup]
+    C --> D[✍️ Writer]
+    D --> E{🧐 Critic}
+    E -- needs revision --> D
+    E -- approved --> F([📄 Final report])
+```
 
----
+**Stack:** LangGraph · LLaMA 3.1 (via Groq) · Tavily · BeautifulSoup · Streamlit
 
-## 💻 Tech Arsenal
+[![Try it live](https://img.shields.io/badge/▶_Try_it_live-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://irbaaz-multi-agent-ai-research-system.streamlit.app)
+[![View code](https://img.shields.io/badge/{_}_View_code-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/IrbaazN/multi-agent-research-system)
 
-<div align="center">
+### 💬 SHL Recommender
 
-### 🐍 Core Language
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+I built an AI chatbot that suggests SHL assessments to HRs through multi-turn conversation. It uses FastAPI, FAISS vector search, and a Groq-hosted LLM.
 
-### 🤖 AI / ML
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
-
-### ⚡ Backend & APIs
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-
-### ☁️ Cloud & Databases
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-### 🛠️ Tools & Design
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white)
-
-</div>
+[![View code](https://img.shields.io/badge/{_}_View_code-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/IrbaazN/SHL-recommender)
 
 ---
 
-## 📊 GitHub Stats
+## 🧪 More things I built
 
-<div align="center">
+<details>
+<summary><b>💳 Credit Card Fraud Detection</b></summary>
+<br>
+I built an XGBoost + SMOTE model for heavily imbalanced transaction data, reaching 97%+ precision.
+</details>
 
-<img src="./profile/stats.svg" />
+<details>
+<summary><b>🩺 Breast Cancer Prediction</b></summary>
+<br>
+I built a classification model on clinical features.
+</details>
 
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=IrbaazN&theme=github-dark-blue&hide_border=true&card_width=500" />
-
-</div>
-
----
-
-## ✍️ Dev Quote of the Day
-
-<div align="center">
-
-![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
-
-</div>
+<details>
+<summary><b>🎙️ VidSnapAI</b></summary>
+<br>
+I built a Flask app that generates voiceovers with ElevenLabs.
+</details>
 
 ---
 
+## 🛠️ Tech stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+---
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=100&section=footer" width="100%"/>
+**Open to collaborating on agentic AI projects. Say hi 👇**
 
-*"The most impactful AI isn't just technically sound — it solves real problems for real people."*
+[![Email me](https://img.shields.io/badge/Email_me-noorirbaaz@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:noorirbaaz@gmail.com)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a5acd,50:2c5364,100:0f2027&height=100&section=footer" alt="footer" width="100%"/>
 
 </div>
